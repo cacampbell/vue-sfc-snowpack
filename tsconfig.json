@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+      "module": "ES6",
+      "noImplicitAny": true,
+      "noImplicitThis": true,
+      "noImplicitReturns": true,
+      "sourceMap": true
+    },
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "include": [
+      "src/**/*.ts",
+      "src/**/*.vue", "src/lang/en.js"
+    ],
+    "files": [
+      "src/shims/vue.d.ts"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }

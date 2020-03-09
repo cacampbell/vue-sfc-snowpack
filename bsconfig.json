@@ -1,0 +1,10 @@
+
+{
+    "open": false,
+    "port": 8080,
+    "host": "localhost",
+    "files": "./dist/**/*",
+    "server": {
+        "baseDir": "./dist"
+    }
+}
